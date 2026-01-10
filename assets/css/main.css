@@ -3925,14 +3925,15 @@ body, input, select, textarea {
    Global Background Reset
    ========================= */
 body {
-  background-color: #12194F;
+  background-color: #FFFFFF;
 }
 
 /* =========================
    Sidebar
    ========================= */
 #sidebar {
-  background-color: #E7F5FF
+  background-color: #12194F
+
 ;
 }
 
@@ -3958,7 +3959,8 @@ body {
 
 /* Who We Are */
 .wrapper.style1 {
-  background-color: #88D0FF;
+  background-color: #348EFF
+;
 }
 
 /* What We Do */
@@ -3968,7 +3970,8 @@ body {
 
 /* Get In Touch */
 .wrapper.style3 {
-  background-color: #88D0FF;
+  background-color: #348EFF
+;
 }
 
 /* =========================
@@ -3986,4 +3989,23 @@ body {
   color: #0B1A33;
 }
 
+
+/* =========================
+   Footer Color Fix
+   ========================= */
+
+#footer {
+  background-color: #348EFF
+;
+}
+
+#footer,
+#footer p,
+#footer a {
+  color: #0B1A33;
+}
+
+#footer a:hover {
+  color: #12194F;
+}
 
