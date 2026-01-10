@@ -4009,5 +4009,23 @@ body {
 
 #footer a:hover {
   color: #12194F;
+	/* =========================
+   Welcome Logo Images
+   ========================= */
+
+#intro .logo-title img {
+  height: 2.75em;          /* 与 h1 字号一致 */
+  width: auto;
+  display: block;
+}
+
+#intro .logo-slogan img {
+  height: 1.25em;          /* 与 p 字号一致 */
+  width: auto;
+  display: block;
+  margin-top: 0.5em;
+}
+
 }别
+
 
