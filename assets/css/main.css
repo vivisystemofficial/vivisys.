@@ -4009,24 +4009,24 @@ body {
 
 #footer a:hover {
   color: #12194F;
-/* =========================
-   Welcome Logo Images (FORCE SCALE)
+
+	/* =========================
+   FORCE SCALE — STOP FIGHTING IMAGE SIZE
    ========================= */
 
 #intro .logo-title img {
-  height: 1.5em !important;   /* 40% of original h1 size */
-  width: auto !important;
-  max-width: none !important;
+  transform: scale(0.5) !important;
+  transform-origin: left top !important;
   display: block;
 }
 
 #intro .logo-slogan img {
-  height: 0.5em !important;   /* 40% of original p size */
-  width: auto !important;
-  max-width: none !important;
+  transform: scale(0.3) !important;
+  transform-origin: left top !important;
   display: block;
-  margin-top: 0.6em;
+  margin-top: -1.5em;
 }
+
 
 
 
