@@ -4010,23 +4010,25 @@ body {
 #footer a:hover {
   color: #12194F;
 /* =========================
-   Welcome Logo Images
+   Welcome Logo Images (FORCE SCALE)
    ========================= */
 
-/* vivisys. logo */
 #intro .logo-title img {
-  height: 1.5em;        
-  width: auto;
+  height: 1.5em !important;   /* 40% of original h1 size */
+  width: auto !important;
+  max-width: none !important;
   display: block;
 }
 
-/* solutions, solved. slogan */
 #intro .logo-slogan img {
-  height: 0.5em;       
-  width: auto;
+  height: 0.5em !important;   /* 40% of original p size */
+  width: auto !important;
+  max-width: none !important;
   display: block;
   margin-top: 0.6em;
 }
+
+
 
 
 
