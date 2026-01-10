@@ -4010,23 +4010,18 @@ body {
 #footer a:hover {
   color: #12194F;
 
-	/* =========================
-   FORCE SCALE — STOP FIGHTING IMAGE SIZE
-   ========================= */
-
 #intro .logo-title img {
-  transform: scale(0.5) !important;
-  transform-origin: left top !important;
+  transform: scale(0.4);
+  transform-origin: left top;
   display: block;
 }
 
 #intro .logo-slogan img {
-  transform: scale(0.3) !important;
-  transform-origin: left top !important;
+  transform: scale(0.4);
+  transform-origin: left top;
   display: block;
-  margin-top: -1.5em;
+  margin-top: -1.2em;
 }
-
 
 
 
