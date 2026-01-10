@@ -4009,23 +4009,24 @@ body {
 
 #footer a:hover {
   color: #12194F;
-	/* =========================
+/* =========================
    Welcome Logo Images
    ========================= */
 
+/* vivisys. logo */
 #intro .logo-title img {
-  height: 2.75em;          /* 与 h1 字号一致 */
+  height: 1.5em;        
   width: auto;
   display: block;
 }
 
+/* solutions, solved. slogan */
 #intro .logo-slogan img {
-  height: 1.25em;          /* 与 p 字号一致 */
+  height: 0.5em;       
   width: auto;
   display: block;
-  margin-top: 0.5em;
+  margin-top: 0.6em;
 }
 
-}别
 
 
