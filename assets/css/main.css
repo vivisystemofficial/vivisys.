@@ -195,7 +195,7 @@ h6 {
 }
 
 .wrapper.style1 {
-  background-color: #5e42a6;
+  background-color:#348EFF;
 }
 
 .wrapper.style1-alt {
@@ -203,7 +203,7 @@ h6 {
 }
 
 .wrapper.style2 {
-  background-color: #5052b5;
+  background-color: #12194F;
 }
 
 .wrapper.style2-alt {
@@ -211,7 +211,7 @@ h6 {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color:#348EFF;
 }
 
 .wrapper.style3-alt {
@@ -316,3 +316,4 @@ body {
 #footer a:hover {
   color: #12194F;
 }
+
