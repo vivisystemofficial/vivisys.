@@ -4010,20 +4010,22 @@ body {
 #footer a:hover {
   color: #12194F;
 
-#intro .logo-title img {
-  transform: scale(0.4);
-  transform-origin: left top;
-  display: block;
+/* =========================
+   HARD LIMIT PNG CANVAS
+   ========================= */
+
+#intro h1,
+#intro p {
+  max-width: 40%;
+  overflow: hidden;
 }
 
-#intro .logo-slogan img {
-  transform: scale(0.4);
-  transform-origin: left top;
+#intro h1 img,
+#intro p img {
+  width: 100%;
+  height: auto;
   display: block;
-  margin-top: -1.2em;
 }
-
-
 
 
 
