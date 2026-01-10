@@ -12,20 +12,12 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-<section id="sidebar">
 
-  <!-- 用一个总容器控制纵向布局 -->
-  <div style="
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    padding: 2em 1.5em;
-    box-sizing: border-box;
-  ">
+		<section id="sidebar">
+  <div class="inner">
 
     <!-- 顶部 Logo -->
-    <div>
+    <div style="margin-bottom: 2em;">
       <img
         src="https://raw.githubusercontent.com/vivisystemofficial/vivisys./main/%E5%8F%8D%E7%99%BD2.png"
         alt="vivisys."
@@ -37,20 +29,18 @@
       />
     </div>
 
-    <!-- 中间导航 -->
-    <div class="inner" style="padding: 0;">
-      <nav>
-        <ul>
-          <li><a href="#intro">Welcome</a></li>
-          <li><a href="#one">Who we are</a></li>
-          <li><a href="#two">What we do</a></li>
-          <li><a href="#three">Get in touch</a></li>
-        </ul>
-      </nav>
-    </div>
+    <!-- 原有导航 -->
+    <nav>
+      <ul>
+        <li><a href="#intro">Welcome</a></li>
+        <li><a href="#one">Who we are</a></li>
+        <li><a href="#two">What we do</a></li>
+        <li><a href="#three">Get in touch</a></li>
+      </ul>
+    </nav>
 
-    <!-- 底部 Slogan -->
-    <div style="text-align: left;">
+    <!-- 底部 Slogan（自然靠下，不参与滚动计算） -->
+    <div style="margin-top: 4em;">
       <img
         src="https://raw.githubusercontent.com/vivisystemofficial/vivisys./main/slogan%E6%B5%85%E7%99%BD%E8%93%9D.png"
         alt="solutions, solved."
@@ -258,6 +248,7 @@ If you’re working on something similar, let’s talk.</p>
 	</body>
 
 </html>
+
 
 
 
