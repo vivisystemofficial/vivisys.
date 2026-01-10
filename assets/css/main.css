@@ -3253,7 +3253,7 @@ body, input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #348EFF;
 		}
 
 		.wrapper.style1-alt {
@@ -3261,7 +3261,8 @@ body, input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #88D0FF
+;
 		}
 
 		.wrapper.style2-alt {
@@ -3269,7 +3270,8 @@ body, input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color:#348EFF
+;
 		}
 
 		.wrapper.style3-alt {
@@ -4008,3 +4010,4 @@ body {
 #footer a:hover {
   color: #12194F;
 }别
+
