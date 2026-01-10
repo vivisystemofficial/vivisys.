@@ -3981,14 +3981,14 @@ body {
    ========================= */
 .wrapper.style1,
 .wrapper.style3 {
-  color: #0B1A33;
+  color:  #ffffff;
 }
 
 .wrapper.style1 h1,
 .wrapper.style1 h2,
 .wrapper.style3 h1,
 .wrapper.style3 h2 {
-  color: #0B1A33;
+  color:  #ffffff;
 }
 
 
@@ -4004,11 +4004,11 @@ body {
 #footer,
 #footer p,
 #footer a {
-  color: #0B1A33;
+  color:  #ffffff;
 }
 
 #footer a:hover {
-  color: #12194F;
+  color:  #ffffff;
 
 /* =========================
    HARD LIMIT PNG CANVAS
@@ -4026,6 +4026,7 @@ body {
   height: auto;
   display: block;
 }
+
 
 
 
