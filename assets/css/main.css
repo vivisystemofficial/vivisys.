@@ -3932,7 +3932,8 @@ body {
    Sidebar
    ========================= */
 #sidebar {
-  background-color: #348EFF;
+  background-color: #E7F5FF
+;
 }
 
 #sidebar nav a:before {
@@ -3984,4 +3985,5 @@ body {
 .wrapper.style3 h2 {
   color: #0B1A33;
 }
+
 
