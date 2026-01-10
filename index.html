@@ -12,55 +12,57 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-<section id="sidebar" style="position: relative;">
+<section id="sidebar">
 
-  <!-- 左上角 Logo -->
+  <!-- 用一个总容器控制纵向布局 -->
   <div style="
-    position: absolute;
-    top: 1.5em;
-    left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2em 1.5em;
+    box-sizing: border-box;
   ">
-    <img
-      src="https://raw.githubusercontent.com/vivisystemofficial/vivisys./main/%E5%8F%8D%E7%99%BD2.png"
-      alt="vivisys."
-      style="
-        max-width: 120px;
-        height: auto;
-        display: block;
-      "
-    />
-  </div>
 
-  <!-- 右下角 Slogan -->
-  <div style="
-    position: absolute;
-    bottom: 1.5em;
-    right: 1.5em;
-    text-align: right;
-  ">
-    <img
-      src="https://raw.githubusercontent.com/vivisystemofficial/vivisys./main/slogan%E6%B5%85%E7%99%BD%E8%93%9D.png"
-      alt="solutions, solved."
-      style="
-        max-width: 140px;
-        height: auto;
-        display: block;
-      "
-    />
-  </div>
+    <!-- 顶部 Logo -->
+    <div>
+      <img
+        src="https://raw.githubusercontent.com/vivisystemofficial/vivisys./main/%E5%8F%8D%E7%99%BD2.png"
+        alt="vivisys."
+        style="
+          max-width: 120px;
+          height: auto;
+          display: block;
+        "
+      />
+    </div>
 
-  <!-- 原有导航 -->
-  <div class="inner">
-    <nav>
-      <ul>
-        <li><a href="#intro">Welcome</a></li>
-        <li><a href="#one">Who we are</a></li>
-        <li><a href="#two">What we do</a></li>
-        <li><a href="#three">Get in touch</a></li>
-      </ul>
-    </nav>
-  </div>
+    <!-- 中间导航 -->
+    <div class="inner" style="padding: 0;">
+      <nav>
+        <ul>
+          <li><a href="#intro">Welcome</a></li>
+          <li><a href="#one">Who we are</a></li>
+          <li><a href="#two">What we do</a></li>
+          <li><a href="#three">Get in touch</a></li>
+        </ul>
+      </nav>
+    </div>
 
+    <!-- 底部 Slogan -->
+    <div style="text-align: left;">
+      <img
+        src="https://raw.githubusercontent.com/vivisystemofficial/vivisys./main/slogan%E6%B5%85%E7%99%BD%E8%93%9D.png"
+        alt="solutions, solved."
+        style="
+          max-width: 140px;
+          height: auto;
+          display: block;
+        "
+      />
+    </div>
+
+  </div>
 </section>
 
 
@@ -256,6 +258,7 @@ If you’re working on something similar, let’s talk.</p>
 	</body>
 
 </html>
+
 
 
 
